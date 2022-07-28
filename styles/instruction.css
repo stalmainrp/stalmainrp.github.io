@@ -1,0 +1,100 @@
+.logo img {
+    position: absolute;
+    top: -9%;
+    transform: translate(-50,-50);
+    max-width: 30%;
+    max-height: 30%;
+    display: block;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myBtn {
+background-color: #2c8fbd;
+color: white;
+padding: 12px 16px;
+font-size: 18px;
+font-weight: bold;
+border: none;
+cursor: pointer;
+width: 180px;
+border-radius: 20px;
+transition: .9s;
+box-shadow: 0 0 15px 0 #555;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 70%;
+}
+#myBtn:hover {
+  background-color: #206d91;
+  box-shadow: 0 0 25px 0 #111;
+  padding: 20px 28px;
+  width: 200px;
+}
+.About_Programm {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  left: 90%;
+  position: absolute;
+}
+.About_us {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  left: 75%;
+  position: absolute;
+}
+.Scripts {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  left: 60%;
+  position: absolute;
+}
+.GUGUP2 {
+  color: white;
+  top: 15%;
+  position: absolute;
+}
+.SUKA {
+  color: #2c8fbd;
+}
+body {
+  background: #000 url(/imgs/maxresdefault.jpg); /* Фоновый цвет и фоновый рисунок*/
+  background-attachment: fixed; /* Фон страницы фиксируется */
+  background-size: cover;
+}
+.About_us2 {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  left: 47%;
+  position: absolute;
+}
+.About_us3 {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  left: 35%;
+  position: absolute;
+}
+body {
+  background: rgb(31, 31, 31)
+}
+.blocked {
+    display: none;
+    color: white;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+@Media (max-width:  780px) {
+  .blocked {
+    display: block;
+  }
+  .jopka {
+    display: none;
+  }
+}
